@@ -10,3 +10,47 @@ body{
     font-family: Arial, sans-serif;
     min-height: 100vh;
 }
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 6%;
+    background: #101425;
+    border-bottom: 2px solid #8b5cf6;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.logo span{
+    color: #00f5ff;
+    text-shadow: 0 0 15px #00f5ff;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.manu a {
+    color: #a8b2d1;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.menu a:hover,
+.menu .aktiv{
+    color: #00f5ff;
+    text-shadow: 0 0 12px #00f5ff;
+}
+
